@@ -1,0 +1,7 @@
+inherit gnome2
+
+DESCRIPTION="GTK+ Shishen Sho Mahjongg game"
+HOMEPAGE="https://garage.maemo.org/projects/shishensho"
+SRC_URI="https://garage.maemo.org/frs/download.php/4247/${PN}_${PV}-1.tar.gz"
+
+CYGCONF_ARGS="--with-platform=gnome"
