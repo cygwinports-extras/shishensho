@@ -1,0 +1,71 @@
+shishensho
+------------------------------------------
+Shishen Sho Mahjongg is a board game similar to Mahjongg. The goal is to 
+remove all the tile pairs. Two tiles can be removed if a line with a 
+maximum of three segments can be drawn between them.
+
+Runtime requirements:
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.1-1
+  libglade2.0_0-2.6.4-1
+  libglib2.0_0-2.20.1-1
+  libgtk2.0_0-2.16.1-1
+  libpango1.0_0-1.24.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gnome-common-2.26.0-1
+  make-3.81-2
+  pkg-config-0.23b-10
+  sed-4.1.5-2
+
+Canonical website:
+  https://garage.maemo.org/projects/shishensho
+
+Canonical download:
+  https://garage.maemo.org/frs/?group_id=659
+
+-------------------------------------------
+
+Build instructions:
+  unpack shishensho-0.3.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./shishensho-0.3.1-X.cygport all
+
+This will create:
+  /usr/src/shishensho-0.3.1-X-src.tar.bz2
+  /usr/src/shishensho-0.3.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/shishensho.exe
+  /usr/share/applications/hildon/shishensho.desktop
+  /usr/share/doc/shishensho/AUTHORS
+  /usr/share/doc/shishensho/COPYING
+  /usr/share/doc/shishensho/README
+  /usr/share/shishensho/guigtk.glade
+  /usr/share/shishensho/pixmaps/kshisen_bgnd.png
+  /usr/share/shishensho/pixmaps/tileset.png
+  /usr/share/shishensho/pixmaps/tileset_letters.png
+
+------------------
+
+Port Notes:
+
+----- version 0.3.1-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

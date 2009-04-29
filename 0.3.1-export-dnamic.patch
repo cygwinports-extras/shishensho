@@ -1,0 +1,13 @@
+Let libtool choose the correct flag (requires 2.2.7a)
+
+--- origsrc/shishensho-0.3.1/src/Makefile.am	2008-07-03 19:08:14.000000000 -0500
++++ src/shishensho-0.3.1/src/Makefile.am	2009-04-29 01:42:56.560875000 -0500
+@@ -10,7 +10,7 @@ shishensho_LDADD = \
+ 	$(HILDON_LIBS) \
+ 	$(HILDONFM_LIBS)
+ 
+-shishensho_LDFLAGS = -Wl,--export-dynamic -rdynamic
++shishensho_LDFLAGS = -export-dynamic -rdynamic
+ 
+ shishensho_CFLAGS = \
+ 	$(GTK2_CFLAGS) \

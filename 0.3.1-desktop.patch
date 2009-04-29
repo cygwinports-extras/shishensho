@@ -1,0 +1,7 @@
+--- origsrc/shishensho-0.3.1/maemo/shishensho.desktop	2008-04-21 14:58:05.000000000 -0500
++++ src/shishensho-0.3.1/maemo/shishensho.desktop	2009-04-29 01:39:12.045250000 -0500
+@@ -5,3 +5,4 @@ Type=Application
+ Name=ShishenSho
+ Comment=A game similar to Mahjongg
+ Exec=/usr/bin/shishensho
++Category=Game;LogicGame;

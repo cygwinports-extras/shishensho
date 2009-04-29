@@ -4,4 +4,8 @@ DESCRIPTION="GTK+ Shishen Sho Mahjongg game"
 HOMEPAGE="https://garage.maemo.org/projects/shishensho"
 SRC_URI="https://garage.maemo.org/frs/download.php/4247/${PN}_${PV}-1.tar.gz"
 
+PATCH_URI="0.3.1-desktop.patch
+           0.3.1-export-dnamic.patch
+           0.3.1-vpath.patch"
+
 CYGCONF_ARGS="--with-platform=gnome"
