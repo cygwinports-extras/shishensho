@@ -5,18 +5,18 @@ remove all the tile pairs. Two tiles can be removed if a line with a
 maximum of three segments can be drawn between them.
 
 Runtime requirements:
-  cygwin-1.7.0-45
+  cygwin-1.7.0-48
   libgcc1-4.3.2-2
-  libgdk_pixbuf2.0_0-2.16.1-1
+  libgdk_pixbuf2.0_0-2.16.2-1
   libglade2.0_0-2.6.4-1
-  libglib2.0_0-2.20.1-1
-  libgtk2.0_0-2.16.1-1
-  libpango1.0_0-1.24.1-1
+  libglib2.0_0-2.20.3-1
+  libgtk2.0_0-2.16.2-1
+  libpango1.0_0-1.24.2-1
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
+  automake1.10-1.10.2-10
   binutils-20080624-2
   cygport-0.9.6-1
   gawk-3.1.6-2
@@ -62,6 +62,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.3.1-2 -----
+Rebuilt.
 
 ----- version 0.3.1-1 -----
 Initial release for Cygwin 1.7.
