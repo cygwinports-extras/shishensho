@@ -1,6 +1,0 @@
-category: Games
-requires: libgcc1 libgdk_pixbuf2.0_0 libglade2.0_0 libglib2.0_0 libgtk2.0_0 libpango1.0_0
-sdesc: "Shishen Sho mahjongg game"
-ldesc: "Shishen Sho Mahjongg is a board game similar to Mahjongg. The 
-goal is to remove all the tile pairs. Two tiles can be removed if a line 
-with a maximum of three segments can be drawn between them."

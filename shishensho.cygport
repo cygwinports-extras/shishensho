@@ -1,0 +1,19 @@
+inherit gnome2
+
+NAME="shishensho"
+VERSION=0.3.1
+RELEASE=2
+CATEGORY="Games"
+SUMMARY="Shishen Sho mahjongg game"
+DESCRIPTION="Shishen Sho Mahjongg is a board game similar to Mahjongg. The
+goal is to remove all the tile pairs. Two tiles can be removed if a line with
+a maximum of three segments can be drawn between them."
+HOMEPAGE="https://garage.maemo.org/projects/shishensho"
+SRC_URI="https://garage.maemo.org/frs/download.php/4247/${NAME}_${VERSION}-1.tar.gz"
+
+PATCH_URI="0.3.1-desktop.patch
+           0.3.1-export-dynamic.patch
+           0.3.1-vpath.patch"
+
+WANT_AUTOMAKE=1.10
+CYGCONF_ARGS="--with-platform=gnome"
