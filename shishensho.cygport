@@ -2,7 +2,7 @@ inherit gnome2
 
 NAME="shishensho"
 VERSION=0.3.1
-RELEASE=2
+RELEASE=3
 CATEGORY="Games"
 SUMMARY="Shishen Sho mahjongg game"
 DESCRIPTION="Shishen Sho Mahjongg is a board game similar to Mahjongg. The

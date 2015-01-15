@@ -4,4 +4,4 @@
  Name=ShishenSho
  Comment=A game similar to Mahjongg
  Exec=/usr/bin/shishensho
-+Category=Game;LogicGame;GTK;
++Categories=Game;BoardGame;GTK;
